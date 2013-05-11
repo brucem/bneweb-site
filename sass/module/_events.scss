@@ -1,0 +1,40 @@
+$event-date-text-hightlight-color: #fff;
+$event-date-border-color: #951100;
+
+
+.event-date {
+    width: 3.5em;
+    border: 0.1em solid $event-date-border-color;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: $text-color;
+}
+
+.event-date-month {
+    background-color: $event-date-border-color;
+    color: $event-date-text-hightlight-color;
+    display: block;
+}
+
+.event-date-day {
+    @include adjust-font-size-to( $base-font-size * 2 );
+    font-weight: bold;
+    display: block;
+}
+
+.upcoming-events {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.future-event {
+    @include inline-block;
+    margin: 0.25em;
+}
+
+.next-event .event-date {
+    @include adjust-font-size-to( $base-font-size * 4 );
+    margin: 0 auto;
+}

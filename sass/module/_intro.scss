@@ -1,0 +1,5 @@
+@import "compass/css3/columns";
+
+.intro-desc {
+    @include column-count(2);
+}

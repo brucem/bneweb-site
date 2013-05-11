@@ -1,0 +1,15 @@
+/* Colors */
+$background-color: #333941;
+$text-color: #000; /* black */
+
+/* Typography */
+$base-font-size: 16px;
+$base-line-height: 24px;
+$relative-font-sizing: true;
+$round-to-nearest-half-line: true;
+
+/* Susy Layout */
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 3.5em;            // each column is 4em wide
+$gutter-width   : 1.5em;            // 1em gutters between columns
+$grid-padding   : $gutter-width;  // grid-padding equal to gutters

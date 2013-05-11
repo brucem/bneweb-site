@@ -1,0 +1,27 @@
+/**
+ * Based on the thoughbot example on  http://hellohappy.org/css3-buttons/
+ */
+
+.button {
+    color: #fff;
+    background-color: #ee432e;
+    border: 1px solid #951100;
+    @include background-image( linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%) );
+    @include border-radius(5px);
+    @include text-shadow( 0px -1px 1px rgba(0, 0, 0, 0.8));
+    @include box-shadow( inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333);
+    padding: 12px 0 14px 0;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    &:hover {
+        background-color: #f37873;
+        @include background-image( linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%) );
+        cursor: pointer;
+    }
+    &:active {
+        background-color: #d43c28;
+        @include background-image( linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%) );
+        @include box-shadow( inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4) );
+    }
+}

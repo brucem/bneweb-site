@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Bruce Morrison -- Instigator  -- @brucemorrison
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Mustache, Yahoo Pipes
+    Compass, Susy, Normalize

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>The Brisbane Wed Design Group - Building the Web Design Community in Brisbane, Australia</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="css/print.css" media="print" rel="stylesheet" type="text/css" />
+        <!--[if IE]>
+        <link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <![endif]-->
+
+        <!-- Mustache Templates --> 
+        <script id="template-next-event" type="text/html">
+            <h2 class="event-name">Next event: {{name}}</h3>
+            <p>
+                <a class="event-date box" href="{{url}}">
+                    <span class="event-date-day">{{day}}</span>
+                    <span class="event-date-month">{{month}}</span>
+                    <span class="event-date-year">{{year}}</span>
+                </a>
+            </p>
+            <p class="event-cta">
+                <a href="{{url}}" class="button">Click here for more details and to RSVP</a>
+            </p>
+        </script>
+
+        <script id="template-event" type="text/html">
+            <li class="future-event">
+                <a class="event-date box" href="{{url}}">
+                    <span class="event-date-day">{{day}}</span>
+                    <span class="event-date-month">{{month}}</span>
+                    <span class="event-date-year">{{year}}</span>
+                </a>
+            </li>
+        </script>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="row heading">
+            <img class="logo" src="img/logo.png" alt="Logo of Brisbane Web Design Group"/>
+            <h1>Brisbane Web Design Group</h1>
+        </div>
+ 
+        <div class="main">
+            <div class="row row-intro">
+                <div class="l-col-1">
+                    <div class="next-event">
+                        <p>Loading next event...</p>
+                    </div>
+                    <h2>Future Events</h2>
+                    <p class="note">Copy required here</p>
+                    <ul class="upcoming-events">
+                        </li><p>Loading future events...</p></li>
+                    </ul>
+                </div>
+
+                <div class="l-col-2">
+                    <h2>About the Brisbane Web Design Group</h2>
+                    <div class="intro-desc">
+                        <p class="note">Want to rewrite this!</p>
+                        <p>The Brisbane Web Design Group is a local, non-profit and self-organised monthly event aimed at bringing together the creative people around Brisbane to connect, discuss and learn about all things web and design related.</p>
+
+                        <p>Doors are open to everyone.</p>
+
+                        <p>Come along and meet fellow website designers, web developers and web business people near you! </p>
+
+                        <p>We include people from various disciplines....</p>
+                        <ul>
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Web Development</li>
+                            <li>Internet Marketing (SEO and PPC)</li>
+                            <li>Online Business and much more</li>
+                        </ul>
+                        <p>...so there are always lots of interesting discussions happening and an opportunity to make valuable contacts as you mingle with new friends!</p>
+
+                        <p>If you would like get involved to present, volunteer, provide support or become a sponsor please get in touch with us.</p>
+
+                    </div>
+
+                    <h3>Event Location</h3>
+                    <p>Brisbane Web Design events are held at: 
+                        <blockquote>
+                            <strong>The Edge</strong><br />
+                            State Library of Queensland,<br />
+                            Stanley Place, South Bank,<br />
+                            Brisbane, Australia
+                        </blockquote>
+                    </p>
+
+                    <h3>Times and schedule</h3>
+                    <p>Each event runs to a similar schedule. Doors open at 5:30pm with the formal presentations starting at around 6:00pm. Depending on the speakers the presentations will finish at or before 8:00pm.</p>
+                    <p>After the presentations we convene at a local pub to catch-up in a less formal setting.  It's a great opportunity to meet other local web industry participants and discuss the evenings presentations.</p> 
+
+                    <h3>Contacting Brisbane Web Design</h3>
+                    <p>Copy required here</p>
+                    <p>How to contact us</p>
+                    <ul>
+                        <li>To present</li>
+                        <li>To volunteer</li>
+                        <li>To sponsor</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="row">
+                <h2>Connect with #bneweb</h2>
+                <div class="l-col-1">
+                    <h3>LinkedIn</h3>
+                    <p class="note">Copy required here</p>
+                    <p class="note">Embed LinkedIn here, or just write copy with a link</p>
+                    <a href="http://www.linkedin.com/groups?gid=1094317">Brisbane Web Design LinkedIn Group</a>
+
+                    <h3>Google Plus</h3>
+                    <p class="note">Copy required here</p>
+                    <p class="note">Links to old page and not community</p>
+                    <div class="g-plus" data-href="//plus.google.com/101050197164079272688" data-rel="publisher"></div>
+
+                </div>
+                <div class="l-col-2">
+                    <h3>Twitter</h3>
+                    <p class="note">Copy required here</p>
+                    <a class="twitter-timeline" width="100%" href="https://twitter.com/bnewebdesign" data-widget-id="332693959707066368">Tweets by @bnewebdesign</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                </div>
+            </div>
+            <div class="row">
+                <h3>YouTube</h3>
+                <p class="note">Copy required here</p>
+                <a href="http://www.youtube.com/user/bnewebdesign">Brisbane Web Design on YouTube</a>
+                <div id="player"></div>
+            </div>
+            <div class="row">
+                <h2>Sponsors</h2>
+                <p class="note">Copy required here</p>
+                <p>We would not be able to do what we do without generous support from our sponsors:</p>
+                <ul>
+                    <li><a href="">Matter Solutions</a></li>
+                    <li><a href="">The Edge</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row footer">
+            <img class="logo" src="img/logo.png" />
+            <h1>Brisbane Web Design Group</h1>
+            <p class="note">Somthing different should go here</p>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+        <script>window.Mustache || document.write('<script src="js/vendor/mustache-0.7.2.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+        <script src="js/youtube.js"></script>
+        <script type="text/javascript">
+            window.___gcfg = {lang: 'en-GB'};
+            (function() {
+               var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+               po.src = 'https://apis.google.com/js/plusone.js';
+               var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                g.src='https://www.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
+        </body>
+    </html>

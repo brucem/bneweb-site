@@ -1,0 +1,29 @@
+@include establish-baseline();
+
+body {
+    background-color:  $background-color;
+}
+
+.main {
+    background-color:  #fff;
+    color: $text-color;
+}
+
+.row-intro {
+    border-bottom: 1px solid #000;
+}
+
+/**
+ * Headings
+ */
+h2 {
+    color: #336666;
+}
+
+/**
+ * Temp style to highlight copy that needs to be addressed
+ */
+.note {
+    padding: 0.25;
+    background-color: rgba(255,255,0,0.6);
+}
