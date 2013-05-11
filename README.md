@@ -1,6 +1,6 @@
-# Brisbane Wed Design Website
+# Brisbane Web Design Website
 
-The [current Brisbane Wed Design site](http://www.brisbanewebdesign.org/) is
+The [current Brisbane Web Design site](http://www.brisbanewebdesign.org/) is
 out of date and the majority of activity of the group takes place on other
 sites:
 
