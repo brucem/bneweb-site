@@ -17,7 +17,7 @@ produce a single point of information for the group.
 
 * [HTML5 Boilerplate](http://html5boilerplate.com)
 * [Compass](http://compass-style.org/)
-** [Susy](http://susy.oddbird.net/)
-** [Normalize] (https://github.com/ksmandersen/compass-normalize)
+    * [Susy](http://susy.oddbird.net/)
+    * [Normalize] (https://github.com/ksmandersen/compass-normalize)
 * [jQuery](http://jquery.com/)
 * [Mustache](http://mustache.github.io/)
